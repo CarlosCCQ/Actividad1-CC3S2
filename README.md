@@ -47,6 +47,6 @@
 
 ![Imagen Docker](./imagenes/construccionImagenDocker.png)
 
-<p>3. Corre el contenedor localmente</p>
+<p>3. Corre el contenedor localmente:</p>
 
 ![Contenedor Local](./imagenes/contenedorDockerLocal.png)
