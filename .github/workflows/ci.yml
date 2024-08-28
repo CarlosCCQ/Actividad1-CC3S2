@@ -24,7 +24,7 @@ jobs: # Conjunto de pasos que se ejecutarán como parte del workflow
         run: npm install # Ejecuta el comando 'npm install' para instalar las dependencias del proyecto definidas en 'package.json'
         
       - name: Run tests # Nombre del paso
-        run: npm test # Ejecuta el comando 'npm test' para correr las pruebas definidas en el proyecto
+        run: npx jest --verbose # utilizamos jest gracias a la dependencia nps 
 
       - name: Build Docker image # Nombre del paso
         run: docker build -t devops-practice . # Construye la imagen de Docker utilizando el comando docker build
