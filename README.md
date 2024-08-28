@@ -36,3 +36,9 @@
 <p>2. Define el flujo de trabajo en <b>.github/workflows/ci.yml</b>:</p>
 
 ![Flujo de trabajo](./imagenes/imagen2.2.png)
+
+<h3>Parte 2: Configura entrega continua (CD) con Docker</h3>
+<h3>- Crea un archivo Docker para contenerizar la aplicación:</h3>
+<p>1. Crea un archivo <b>Dockerfile</b>:</p>
+
+![Dockerfile](./imagenes/imagenDockerfile.png)
