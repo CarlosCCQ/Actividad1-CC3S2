@@ -18,7 +18,7 @@
 
 <p>5. Escribe un test básico en tests/app.test.js</p>
 
-![Test básico](./imagenes/imagen1.5.png)
+![Test básico](./imagenes/app.test.png)
 
 <p>6. Configura el script de test en package.json</p>
 
