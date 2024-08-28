@@ -3,8 +3,10 @@ const app = require('../src/app');//Se importa la Express desde app.js de la car
 
 let server; //Se utiliza para almacenar la instancia del servidor Express, esta se iniciara al ejecutar las pruebas y finalizara al finalizar las pruebas
 
-beforeAll(() => {
-    server = app.listen(3000); //Para iniciar el servidor antes de las pruebas
+beforeAll((done) => {
+    server = app.listen(() => {
+        done();
+    }); //Para iniciar el servidor en el puerto 3000 antes de las pruebas
 });
 
 afterAll((done) => {
