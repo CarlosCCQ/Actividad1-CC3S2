@@ -1,4 +1,4 @@
-name: CI Pipeline #Nombre del workflow
+name: CI/CD Pipeline #Nombre del workflow
 on: #Define donde se ejecutara el workflow
 	push: #Se ejecutara el workflow cuando se haga un push a la rama 'main'
 		branches:
@@ -25,3 +25,9 @@ jobs: #Conjunto de pasos que se ejecutaran como parte del workflow
 			  
 			- name: Run tests #Nombre del paso
 			  run: npm test #Ejecuta el comando 'npm test' para correr las pruebas definidas en el proyecto
+
+			- name: Build Docker image #Nombre del paso
+			  run: docker build -t devops-practice . #Construye la imagen de Docker utilizando el comando `docker build`
+			
+			- name: Run Docker container #Nombre del paso
+			  run: docker run -d -p 3000:3000 devops-practice #Ejecuta el contenedor Docker en segundo plano mapeando el puerto 3000 del contenedor al puerto 3000 de la maquina virtual 

@@ -50,3 +50,8 @@
 <p>3. Corre el contenedor localmente:</p>
 
 ![Contenedor Local](./imagenes/contenedorDockerLocal.png)
+
+<h3>- Automatiza el despliegue con GitHub Actions:</h3>
+<p>1. Actualiza el archivo .github/workflows/ci.yml para construir y desplegar la imagen de Docker:</p>
+
+![Actualizacion de Workflow](./imagenes/actualizacionWorkflow.png)
