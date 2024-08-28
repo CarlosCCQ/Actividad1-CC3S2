@@ -65,3 +65,7 @@
 <p>1. Crea un archivo docker-compose.yml:</p>
 
 ![Docker Compose](./imagenes/dockerCompose.png)
+
+<p>2. Corre la aplicación usando Docker Compose:</p>
+
+![Corriendo Docker-Compose](./imagenes/usandoDockerCompose.png)
