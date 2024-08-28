@@ -55,3 +55,7 @@
 <p>1. Actualiza el archivo .github/workflows/ci.yml para construir y desplegar la imagen de Docker:</p>
 
 ![Actualizacion de Workflow](./imagenes/actualizacionWorkflow.png)
+
+<p>2. Verifica que la aplicación se despliegue correctamente localmente usando Docker:</p>
+
+![Verificación despliegue](./imagenes/verificacionDespliegue.png)
