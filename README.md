@@ -46,3 +46,7 @@
 <p>2. Construye la imagen de Docker:</p>
 
 ![Imagen Docker](./imagenes/construccionImagenDocker.png)
+
+<p>3. Corre el contenedor localmente</p>
+
+![Contenedor Local](./imagenes/contenedorDockerLocal.png)
