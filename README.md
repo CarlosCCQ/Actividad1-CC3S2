@@ -42,3 +42,7 @@
 <p>1. Crea un archivo <b>Dockerfile</b>:</p>
 
 ![Dockerfile](./imagenes/imagenDockerfile.png)
+
+<p>2. Construye la imagen de Docker:</p>
+
+![Imagen Docker](./imagenes/construccionImagenDocker.png)
