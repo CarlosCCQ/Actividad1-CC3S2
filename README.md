@@ -59,3 +59,9 @@
 <p>2. Verifica que la aplicación se despliegue correctamente localmente usando Docker:</p>
 
 ![Verificación despliegue](./imagenes/verificacionDespliegue.png)
+
+<h2>3. Automatización</h2>
+<h3>- Automatiza la configuración y gestión del entorno local usando Docker Compose:</h3>
+<p>1. Crea un archivo docker-compose.yml:</p>
+
+![Docker Compose](./imagenes/dockerCompose.png)
