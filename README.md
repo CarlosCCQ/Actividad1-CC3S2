@@ -54,7 +54,7 @@
 <h3>- Automatiza el despliegue con GitHub Actions:</h3>
 <p>1. Actualiza el archivo .github/workflows/ci.yml para construir y desplegar la imagen de Docker:</p>
 
-![Actualizacion de Workflow](./imagenes/actualizacionWorkflow.png)
+![Actualizacion de Workflow](./imagenes/actualizacionWorflow.png)
 
 <p>2. Verifica que la aplicación se despliegue correctamente localmente usando Docker:</p>
 
