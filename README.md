@@ -12,25 +12,30 @@
 EL quipo de operaciones de IT considera que la estabilidad del sistema era su maxima prioridad.</p>
 
 <li><b>Principios fundamentales de DevOps (centrado en el cliente, equipos autónomos y multifuncionales, mejora continua, automatización).</b></li>
-<p><b>- Centrado en el cliente:</b> Ofrecer productos rapidos, vanguardistas y confiables.</p>
-<p><b>- Centrado en equipos autónomos:</b> Devops no solo busca la formación de equipos diversos, sino que estos equipos sean autonomos, capaces de supervisar un producto o caracteristica desde su concepción hasta su entrega esto porque si un equipo posee un conjunto de habilidades la velocidad de toma de decisiones se acelera y elimina la cadena de mando lenta y engorrosa.</p>
+<p><b>- Centrado en el cliente:</b> Ofrecer productos rapidos, vanguardistas y confiables, resolviendo problemas del mundo real de manera eficiente.</p>
+<p><b>- Centrado en equipos autónomos y multifuncionales:</b> Devops no solo busca la formación de equipos diversos, sino que estos equipos sean autonomos, capaces de supervisar un producto o caracteristica desde su concepción hasta su entrega esto porque si un equipo posee un conjunto de habilidades la velocidad de toma de decisiones se acelera y elimina la cadena de mando lenta y engorrosa.</p>
 <p><b>- Centrado en la mejora continua:</b> Permite la confiabilidad, adaptibilidad y eficiencia de los procesos de entrega de software, contribuye a la optimización de recursos y entrega más rapida de características, su importancia se ve mas clara en los <b>ciclos de retroalimentación</b> el cual permite el monitoreo en tiempo real del sistema.</p>
-<li style="font-weight: bold;">Qué NO es DevOps</li>
+<li><b>Qué NO es DevOps</b></li>
 <p>1. DevOps no es una herramienta, tecnologia o producto.</p>
 <p>2. DevOps no se trata de individuos especificos, equipos o roles.</p>
 <p>3. DevOps no solo es un proceso</p>
 
 <h2>2. Preguntas de reflexión:</h2>
-<li style="font-weight: bold;">¿Por qué surgió la necesidad de DevOps en el desarrollo de software?</li>
-<p></p>
-<li style="font-weight: bold;">Explica cómo la falta de comunicación y coordinación entre los equipos de desarrollo y operaciones en el pasado ha llevado a la creación de DevOps</li>
-<p></p>
-<li style="font-weight: bold;">Describe cómo el principio de mejora continua afeca tanto a los aspectos técnicos como culturales de una organización</li>
-<p></p>
-<li style="font-weight: bold;">¿Qué significa que DevOps no se trata solo de herramientas, individuos o procesos?</li>
-<p></p>
-<li style="font-weight: bold;">Según el texto, ¿cómo contribuyen los equipos autónomos y multifuncionales a una implementación exitosa de DevOps?</li>
-<p></p>
+<li><b>¿Por qué surgió la necesidad de DevOps en el desarrollo de software?</b></li>
+<p>Devops surge como necesidad de desarrollar más rapido productos de software, lo que hacia más lento al desarrollo de software eran o siguen siendo los silos esto es basicamente grupos dentro del desarrollo de software que carecen de integración o comunicación con otras partes lo que lleva a retrasos o ineficiencias.</p>
+
+<li><b>Explica cómo la falta de comunicación y coordinación entre los equipos de desarrollo y operaciones en el pasado ha llevado a la creación de DevOps.</b></li>
+<p>En el pasado los equipos que trabajaban en e desarrollo de software trabajaban de manera aislada (silos) con muy poca integración en en producto final del software lo que llevaba a retrasos y ineficiencias, por esto y ademas con la aparición del server HTTP de Apache y con una comunicacíon orientada en la red se llevo a desarrollar una cultura de desarrollo de software que hoy llamamos como DevOps.</p>
+
+<li><b>Describe cómo el principio de mejora continua afeca tanto a los aspectos técnicos como culturales de una organización.</b></li>
+<p><b>-En aspectos tecnicos:</b> Permite cualidades como la confiabilidad, adaptabilidad y eficiencia de los procesos de entrega de software a través de un aalisis continuo de métricas y la utlización de flujos de trabajo automatizados.</p>
+<p><b>-En una organización:</b> Fomenta un entorno colaborativo, asegurando responsabilidad, alienta una cultura de aprendizaje y, en última instancia, ayudando a desmantelar silos organizacionales.</p>
+
+<li><b>¿Qué significa que DevOps no se trata solo de herramientas, individuos o procesos?</b></li>
+<p>No. DevOps representa un cambio cultural y un enfoque diseñado para eliminar la fricción entre los silos dentro de una organización, eso implica un cambio en la mentalidad, los habitos y la cultura.</p>
+
+<li><b>Según el texto, ¿cómo contribuyen los equipos autónomos y multifuncionales a una implementación exitosa de DevOps?</b></li>
+<p>Al desarrollar equipos autonomos que poseen diferentes caracteristicas y poseer toma de deciciones de manera autonoma elimina la cadena de mando lenta y engorrosa, esto cultiva una cultura de propiedad y responsabilidad. Los equipos autonomos y multifuncionales liminan silos por esto resulta ser una piedra angular en el desarrollo de una cultura DevOps</p>
 
 <h2>1. Configuración del entorno</h2>
 <h3>- Proyecto: Utilizaremos una aplicación web sencilla utilizando Node.js. Esta aplicación tendrá una API REST básica con un único endpoint que devuelve un mensaje de  "<b>Hello, World!</b>"</h3>
