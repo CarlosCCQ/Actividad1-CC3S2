@@ -1,17 +1,17 @@
 <h1 style="text-align: center;">Actividad1-CC3S2</h1>
 <h2>1. Lectura y reflexión:</h2>
 
-<li style="font-weight: bold;">¿Qué es DevOps?</li>
+<li> <b>¿Qué es DevOps?</b></li>
 <p>El termino DevOps es una combinación de las palabras development (desarrollo) y operations (operaciones),  es un cambio de cultura y la unión de personas, procesos y herramientas que trata de alinear prioridades, flujos de trabajo y eliminar silos que obstaculicen la comunicación y el progreso efectivo para proporcionar continuamente valor a los usuarios finales.</p>
 
-<li style="font-weight: bold;">Historia y antecedentes de DevOps</li>
+<li><b>Historia y antecedentes de DevOps</b></li>
 <p>Antes de la aparición de DevOps los desarrolladores trataban de aplastar los errores de software antes de su lanzamiento al usurio final preocupandose poco por la estabilidad del software, esto cambio con la aparición del servidor HTTP de Apache y el cambio hacia la comunicación de red surgio la necesidad de que las operaciones de IT gestionaran este nuevo paradigma.</p>
 
-<li style="font-weight: bold;">Diferencias entre los equipos de desarrolloy operaciones en el pasado.</li>
+<li><b>Diferencias entre los equipos de desarrolloy operaciones en el pasado.</b></li>
 <p>EL equipo de desarrollo busca agregar caracteristicas, esto de hacerse de manera correcta y eficiente perjudicaria la estabilidad del sistema.
 EL quipo de operaciones de IT considera que la estabilidad del sistema era su maxima prioridad.</p>
 
-<li style="font-weight: bold;">Principios fundamentales de DevOps (centrado en el cliente, equipos autónomos y multifuncionales, mejora continua, automatización).</li>
+<li><b>Principios fundamentales de DevOps (centrado en el cliente, equipos autónomos y multifuncionales, mejora continua, automatización).</b></li>
 <p><b>- Centrado en el cliente:</b> Ofrecer productos rapidos, vanguardistas y confiables.</p>
 <p><b>- Centrado en equipos autónomos:</b> Devops no solo busca la formación de equipos diversos, sino que estos equipos sean autonomos, capaces de supervisar un producto o caracteristica desde su concepción hasta su entrega esto porque si un equipo posee un conjunto de habilidades la velocidad de toma de decisiones se acelera y elimina la cadena de mando lenta y engorrosa.</p>
 <p><b>- Centrado en la mejora continua:</b> Permite la confiabilidad, adaptibilidad y eficiencia de los procesos de entrega de software, contribuye a la optimización de recursos y entrega más rapida de características, su importancia se ve mas clara en los <b>ciclos de retroalimentación</b> el cual permite el monitoreo en tiempo real del sistema.</p>
