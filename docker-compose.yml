@@ -6,4 +6,4 @@ services: #Seccion para definir los servicios
     ports: #Define como los puertos del contenedor se mapearan a los puertos del host
       - "3000:3000" #El puerto 3000 del contenedor se mapeara al puerto 300 del host
     environment: #Define las varibales de entorno que se pasan al contenedor cuando se ejecuta
-      - NODE_ENV=production #'NODE_ENV' se establece en 'production' lo que significa que el contenedor estara configurado para un entorno de producción
+      - NODE_ENV=production #'NODE_ENV' se establece en 'production' lo que significa que el contenedor estara configurado para un entorno de producciónn el quinto paso, <b>"Build Docker image"</b>, se emplea el comando <b>docker build -t devops-practice</b> para construir la imagen Docker. Finalmente, el último paso, <b>"Run Docker container"</b>, utiliza el comando <b>docker run -d -p 3000:3000 devops-practice</b> para ejecutar el contenedor Docker en segundo plano, mapeando el puerto 3000 del contenedor al puerto 3000 de la máquina virtual.

@@ -1,12 +1,12 @@
 const request = require('supertest');//Import la libreria 'supertest', que se utiliza para realizar pruebas en aplicaciones web HTTP 
-const app = require('../src/app');//Se importa la Express desde app.js de la carpeta src
+const app = require('../src/app');//Se importa Express desde app.js de la carpeta src
 
 let server; //Se utiliza para almacenar la instancia del servidor Express, esta se iniciara al ejecutar las pruebas y finalizara al finalizar las pruebas
 
 beforeAll((done) => {
     server = app.listen(() => {
         done();
-    }); //Para iniciar el servidor en el puerto 3000 antes de las pruebas
+    }); //Para iniciar el servidor en un puerto dinamico
 });
 
 afterAll((done) => {
