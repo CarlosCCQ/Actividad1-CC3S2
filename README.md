@@ -149,3 +149,7 @@ En nuestro archivo <b>docker-compose.yml</b>, se construirá una imagen utilizan
 <p>Utilizamos el comando <b>docker-compose up --build -d</b> para correr la aplicación utilizando Docker Compose.</p>
 
 ![Corriendo Docker-Compose](./imagenes/usandoDockerCompose.png)
+
+<h2>4. Evaluación</h2>
+<h3>- Evaluación de la experiencia:</h3>
+<p>El uso de un Pipeline automatiza las tareas de compilación, pruebas y despliegue. Al usar Pipeline se puede controlar los procesos de ejecución de las aplicación de software esto ayuda a reducir o evitar las discrepancias entre los equipos de desarrollo y operaciones, también se pueden controlar las pruebas como el tiempo en que estos se ejecutarán, al usar Pipeline se puede controlar cada parte del proceso haciendo esto que sea una herramienta muy util para los equipos de desarrollo y operaciones.</p>
