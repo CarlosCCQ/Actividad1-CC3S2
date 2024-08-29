@@ -4,9 +4,7 @@ const app = require('../src/app');//Se importa Express desde app.js de la carpet
 let server; //Se utiliza para almacenar la instancia del servidor Express, esta se iniciara al ejecutar las pruebas y finalizara al finalizar las pruebas
 
 beforeAll((done) => {
-    server = app.listen(() => {
-        done();
-    }); //Para iniciar el servidor en un puerto dinamico
+    server = app.listen(done); //Para iniciar el servidor en un puerto dinamico
 });
 
 afterAll((done) => {
