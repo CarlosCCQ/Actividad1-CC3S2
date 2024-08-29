@@ -1,4 +1,37 @@
-<h1>Actividad1-CC3S2</h1>
+<h1 style="text-align: center;">Actividad1-CC3S2</h1>
+<h2>1. Lectura y reflexión:</h2>
+
+<li style="font-weight: bold;">¿Qué es DevOps?</li>
+<p>El termino DevOps es una combinación de las palabras development (desarrollo) y operations (operaciones),  es un cambio de cultura y la unión de personas, procesos y herramientas que trata de alinear prioridades, flujos de trabajo y eliminar silos que obstaculicen la comunicación y el progreso efectivo para proporcionar continuamente valor a los usuarios finales.</p>
+
+<li style="font-weight: bold;">Historia y antecedentes de DevOps</li>
+<p>Antes de la aparición de DevOps los desarrolladores trataban de aplastar los errores de software antes de su lanzamiento al usurio final preocupandose poco por la estabilidad del software, esto cambio con la aparición del servidor HTTP de Apache y el cambio hacia la comunicación de red surgio la necesidad de que las operaciones de IT gestionaran este nuevo paradigma.</p>
+
+<li style="font-weight: bold;">Diferencias entre los equipos de desarrolloy operaciones en el pasado.</li>
+<p>EL equipo de desarrollo busca agregar caracteristicas, esto de hacerse de manera correcta y eficiente perjudicaria la estabilidad del sistema.
+EL quipo de operaciones de IT considera que la estabilidad del sistema era su maxima prioridad.</p>
+
+<li style="font-weight: bold;">Principios fundamentales de DevOps (centrado en el cliente, equipos autónomos y multifuncionales, mejora continua, automatización).</li>
+<p><b>- Centrado en el cliente:</b> Ofrecer productos rapidos, vanguardistas y confiables.</p>
+<p><b>- Centrado en equipos autónomos:</b> Devops no solo busca la formación de equipos diversos, sino que estos equipos sean autonomos, capaces de supervisar un producto o caracteristica desde su concepción hasta su entrega esto porque si un equipo posee un conjunto de habilidades la velocidad de toma de decisiones se acelera y elimina la cadena de mando lenta y engorrosa.</p>
+<p><b>- Centrado en la mejora continua:</b> Permite la confiabilidad, adaptibilidad y eficiencia de los procesos de entrega de software, contribuye a la optimización de recursos y entrega más rapida de características, su importancia se ve mas clara en los <b>ciclos de retroalimentación</b> el cual permite el monitoreo en tiempo real del sistema.</p>
+<li style="font-weight: bold;">Qué NO es DevOps</li>
+<p>1. DevOps no es una herramienta, tecnologia o producto.</p>
+<p>2. DevOps no se trata de individuos especificos, equipos o roles.</p>
+<p>3. DevOps no solo es un proceso</p>
+
+<h2>2. Preguntas de reflexión:</h2>
+<li style="font-weight: bold;">¿Por qué surgió la necesidad de DevOps en el desarrollo de software?</li>
+<p></p>
+<li style="font-weight: bold;">Explica cómo la falta de comunicación y coordinación entre los equipos de desarrollo y operaciones en el pasado ha llevado a la creación de DevOps</li>
+<p></p>
+<li style="font-weight: bold;">Describe cómo el principio de mejora continua afeca tanto a los aspectos técnicos como culturales de una organización</li>
+<p></p>
+<li style="font-weight: bold;">¿Qué significa que DevOps no se trata solo de herramientas, individuos o procesos?</li>
+<p></p>
+<li style="font-weight: bold;">Según el texto, ¿cómo contribuyen los equipos autónomos y multifuncionales a una implementación exitosa de DevOps?</li>
+<p></p>
+
 <h2>1. Configuración del entorno</h2>
 <h3>- Proyecto: Utilizaremos una aplicación web sencilla utilizando Node.js. Esta aplicación tendrá una API REST básica con un único endpoint que devuelve un mensaje de  "<b>Hello, World!</b>"</h3>
 <p><b>1. Inicializa el proyecto de Node.js:</b></p>
