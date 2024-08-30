@@ -84,7 +84,7 @@ EL quipo de operaciones de IT considera que la estabilidad del sistema era su ma
 ![Estructura](./imagenes/imagen2.1.png)
 
 <p><b>2. Define el flujo de trabajo en .github/workflows/ci.yml:</b></p>
-<p>convierte en la entrada del siguiente. Esto facilita la comunicación y sincronización entre los procesos. El archivo <b>ci.yml</b> se ejecutará cada vez que haya un <b>push</b> o <b>pull request</b> en la rama <b>main</b>.
+<p>El proceso descrito a continuación detalla cómo se configura y ejecuta un pipeline en un entorno de integración continua (CI). Este pipeline se activa cada vez que se realiza un push o pull request en la rama principal (main) del repositorio, lo que facilita la comunicación y sincronización entre los procesos de desarrollo.<p>
 
 El funcionamiento del pipeline se define en la sección <b>jobs</b>, que especifica el conjunto de pasos que se ejecutarán como parte del <b>workflow</b>. El primer <b>job</b> se denomina <b>build</b>, y en él utilizaremos <b>runs-on</b> para definir dónde se ejecutará el <b>workflow</b>. En este caso, se ejecutará en una máquina virtual con la última versión disponible de Ubuntu, especificada como <b>ubuntu-latest</b>.
 
